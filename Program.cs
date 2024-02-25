@@ -1,4 +1,5 @@
-﻿namespace ExamPrep
+﻿using ExamPrep.DesignPatterns;
+namespace ExamPrep
 {
     /// <summary>
     /// Represents the entry point and user interface for demonstrating various design patterns.

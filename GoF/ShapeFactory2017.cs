@@ -1,16 +1,6 @@
-namespace ExamPrep
+using ExamPrep.Interfaces;
+namespace ExamPrep.DesignPatterns
 {
-    /// <summary>
-    /// Represents a shape with a method to show its properties.
-    /// </summary>
-    public interface IShape
-    {
-        /// <summary>
-        /// Displays the properties of the shape.
-        /// </summary>
-        public void ShowShapeProps();
-    }
-
     /// <summary>
     /// Represents a rectangle shape.
     /// </summary>

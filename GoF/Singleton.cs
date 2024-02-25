@@ -1,4 +1,4 @@
-namespace ExamPrep
+namespace ExamPrep.DesignPatterns
 {
     /// <summary>
     /// Represents a singleton class that ensures only one instance is created.

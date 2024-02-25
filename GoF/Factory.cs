@@ -1,21 +1,6 @@
-namespace ExamPrep
+using ExamPrep.Interfaces;
+namespace ExamPrep.DesignPatterns
 {
-    /// <summary>
-    /// Represents a technician who performs website and API actions.
-    /// </summary>
-    public interface ITech
-    {
-        /// <summary>
-        /// Performs website-related action.
-        /// </summary>
-        public void WebsiteAction();
-
-        /// <summary>
-        /// Performs API-related action.
-        /// </summary>
-        public void ApiAction();
-    }
-
     /// <summary>
     /// Represents a developer who implements <see cref="ITech"/>.
     /// </summary>

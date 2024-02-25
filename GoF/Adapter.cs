@@ -1,27 +1,6 @@
-namespace ExamPrep
+using ExamPrep.Interfaces;
+namespace ExamPrep.DesignPatterns
 {
-    /// <summary>
-    /// Represents a client's request to fetch data.
-    /// </summary>
-    public interface IClientRequest
-    {
-        /// <summary>
-        /// Fetches data for the client.
-        /// </summary>
-        public void ClientFetchData(int pageNumber, int pageSize);
-    }
-
-    /// <summary>
-    /// Represents an interface for fetching data from the app.
-    /// </summary>
-    public interface IAdaptee
-    {
-        /// <summary>
-        /// Fetches data from the app.
-        /// </summary>
-        public void AppFetchData(int pageNumber);
-    }
-
     /// <summary>
     /// Represents the implementation of <see cref="IAdaptee"/>.
     /// </summary>
